@@ -1,0 +1,31 @@
+body {
+	background-image: url(https://images.freecreatives.com/wp-content/uploads/2016/04/Free-Space-Seamless-Pattern-Background.jpg);
+	text-align: center;
+}
+
+h1 {
+	padding-top: 80px;
+	font-family: "Brush Script Std";
+	color:#E3FFFF;
+	font-size: 60px;
+}
+
+.sve {
+	margin: auto;
+	width: 700px;
+	border-radius: 350px;
+	background-color: #00485E;
+	font-family: "Brush Script Std";
+	font-style: oblique;
+	color:#E3FFFF;
+
+}
+
+img {
+	 border-radius: 60px;
+	 opacity: 0.7;
+}
+
+span {
+	color: #FFFFFF;
+}
