@@ -1,0 +1,70 @@
+body {
+	font-family: "Lucida Sans Unicode" ;
+}
+
+header {
+	background-color: #EC6168;
+	color: white;
+}
+
+h1 {
+	padding-left: 70px;
+	font-size: 40px;
+}
+
+h1,
+nav ul li {
+	display: inline-block;
+}
+
+nav{
+	padding-right: 70px;
+	padding-top: 35px;
+	float:right;
+}
+
+a {
+	color:white;
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: white;
+	color: #EC6168;
+}
+
+article {
+	color:#EC6168;
+}
+
+.kontejner {
+
+    border: 1px solid #EC6168;
+    width: 200px;
+    padding: 20px;
+    margin: 100px 5px 5px 70px;
+    border-radius: 5px;
+    position: relative;
+    display: inline-block;
+    
+
+}
+
+
+.krug {
+    width: 60px;
+    height: 60px;
+    background-color:#EC6168;
+    border-radius:50%;
+    position:absolute;
+    top: -40px;
+    left: 83px;
+    display: inline-block;
+
+}
+
+.slika {
+    height: 400px;
+    background-image: url(http://media02.hongkiat.com/seemless-icon-patterns/4-seamless-icon-pattern-download.jpg);
+    margin-top: 80px;
+}
