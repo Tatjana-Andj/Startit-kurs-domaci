@@ -1,0 +1,64 @@
+body {
+	font-family: "Lucida Sans Unicode" ;
+}
+
+header {
+	background-color:#E20C8A;
+	color: white;
+}
+
+h1 {
+	padding-left: 100px;
+	font-size: 40px;
+}
+
+h1,
+nav ul li {
+	display: inline-block;
+}
+
+nav{
+	padding-right: 130px;
+	padding-top: 35px;
+	float:right;
+}
+
+a {
+	color:white;
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: white;
+	color: #E20C8A;
+}
+
+article {
+	color:#E20C8A;
+}
+
+.kontejner {
+
+    border: 1px solid #E20C8A ;
+    width: 200px;
+    padding: 20px;
+    margin: 150px 5px 5px 70px;
+    border-radius: 5px;
+    position: relative;
+    display: inline-block;
+    
+
+}
+
+
+.krug {
+    width: 60px;
+    height: 60px;
+    background-color: #E20C8A ;
+    border-radius:50%;
+    position:absolute;
+    top: -40px;
+    left: 83px;
+    display: inline-block;
+
+}
