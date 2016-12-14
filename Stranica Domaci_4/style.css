@@ -1,0 +1,95 @@
+body {
+	
+	background-image: url(http://images.zlashop.nordnet.co.rs/logo2.png);
+}
+
+
+img{
+	float: left;
+	padding-left: 30px;
+	padding-top: 20px;
+}
+nav ul li {
+	display: inline-block;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+nav {
+	text-align: right;
+	padding-right: 30px;
+	padding-top: 20px;
+	font-size: 20px;
+
+}
+
+a {
+	padding-left: 10px;
+	padding-right: 10px;
+	color:black;
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: black;
+	color: #BBBEC1;
+}
+
+.kontercetina {
+	clear: both;
+	text-align: center;
+	font-family: sans-serif;
+}
+.kontejner {
+	color: #717372;
+	border-radius: 5px;
+	align-self: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	width: 800px;
+	background-color: white;
+	display: inline-block;
+}
+
+hr {
+	width: 730px;
+	color: #717372;
+}
+
+.kontercetina img {
+	float: right;
+	padding-right: 40px;
+}
+
+h2 {
+	text-align: left;
+	padding-left: 40px;
+	padding-top: 40px;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+p {
+
+	padding-left: 40px;
+	text-align: justify;
+}
+
+h5 {
+	text-align: left;
+	padding-left: 40px;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+table {
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 50px;
+	border-collapse: collapse;
+}
+
+td {
+	text-align: center;
+	padding: 5px 62px;
+}
+
+tr:nth-child(odd) {
+	background-color: #BBBEC1;
+}
