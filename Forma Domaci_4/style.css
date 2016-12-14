@@ -1,0 +1,49 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Amatic SC', cursive;
+	font-size: 20px;
+	background-image:url(http://img.freepik.com/free-vector/pink-pattern-design_1235-129.jpg?size=338&ext=jpg);
+
+}
+
+form {
+	margin:100px auto;
+	background-color: white;
+	color: #E69697;
+	width: 600px;
+	padding:80px 150px;
+	border-radius: 5px;
+}
+
+h1 {
+	text-align: center;
+}
+input {
+	display: block;
+	margin: 10px 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+	width: 300px;
+	display: inline-block;
+	border:none;
+	border-bottom: 1px solid #E69697;
+}
+
+textarea {
+	width: 300px;
+	display: inline-block;
+}
+
+input[type=submit] {
+	background-color: #E69697;
+	color: white;
+	margin: auto;
+	padding: 16px 32px;
+	cursor: pointer;
+}
