@@ -1,0 +1,147 @@
+body {
+	background-color: rgb(245,244,243);
+	font-family: 'Open Sans', sans-serif;
+}
+
+a, a:hover, a:focus {
+	text-decoration: none;
+	color: rgb(67, 76, 67);
+}
+
+.container {
+	max-width: 1200px;
+	width: 97%;
+	margin: 50px auto;
+	text-align: center;
+	position: relative;
+	padding: 0;
+}
+
+.content:nth-child(1) {
+	margin-left: 0;
+}
+
+.content:nth-child(3) {
+	margin-right: 0;
+}
+
+.content {
+	margin: 0 15px;
+	width: 350px;
+	height: 240px;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	transition: box-shadow 0.2s ease-in-out;
+	box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.1294);
+}
+
+.content > img {
+    vertical-align: top;
+    width: 100%; /* max width */
+}
+
+.white-box {
+	bottom: 0;
+	width: 100%;
+	transition: height 0.3s ease;
+	transition-delay: 0.15s;
+	height: 108px;
+	background-color: white;
+	position: absolute;
+	text-align: center;
+
+}
+
+.white-circle {
+	background-color: white;
+	width: 104px;
+	height: 104px;
+	border-radius: 50%;
+	position: absolute;
+	transform: translate(-50%,-22%);
+	display: inline-block;
+	left: 50%;
+	top: 0;
+	z-index: 1;
+}
+
+.icons {
+	display: inline-block;
+	position: relative;
+	color: #2acd35;
+	font-size: 42px;
+	z-index: 2;
+}
+
+h5 {
+	font-size: 18px;
+	line-height: 24px;
+	color: #444444;
+	position: relative;
+	z-index: 3;
+}
+
+h5 a:hover {
+	color: #2acd35;
+}
+
+a.button {
+	display: inline-block;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    line-height: 16px;
+    margin-top: 10px;
+    padding: 13.5px 20px;
+    border: 1px solid #2acd35;
+    border-radius: 99px;
+    background-color: #2acd35;
+    transition: opacity 0.15s ease;
+    opacity: 0;
+}
+
+.content:hover {
+	transition: box-shadow 0.2s ease-in-out;
+	box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.1294);
+}
+
+a.button:hover {
+	border-color: #555555;
+	background-color: #555555;
+}
+
+.content:hover .white-box {
+	transition: height 0.3s ease;
+	transition-delay: 0.15s;
+	height: 173px;
+}
+
+.content:hover .button {
+	transition: opacity 0.3s ease;
+	transition-delay: 0.45s;
+	opacity: 1;	
+}
+
+@media screen and (max-width: 1200px) {
+
+	.content {
+	width: 293px;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+
+	.container {
+	width: 95%;
+	margin: 50px auto;
+	}
+
+	.content {
+	width: 100%;
+	height: auto;
+	display: block;
+	margin: 30px 0;
+	}
+}
