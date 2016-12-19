@@ -1,0 +1,219 @@
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+	background-image: url("https://beatsbeautyandbeyond.files.wordpress.com/2015/08/hello-brio-watercolor-4.png");
+	font-family: 'Amatic SC', cursive;
+}
+
+
+header {
+	height: 200px;
+	background-image: url("https://s-media-cache-ak0.pinimg.com/originals/f3/13/26/f3132679cb4b16630be19ec9206f7cab.jpg");
+	background-size: cover;
+	background-position: center center;
+	padding: 30px;
+	
+}
+
+
+.header-content {
+	margin-top: 90px;
+}
+
+
+header h1, header h3 {
+	margin: 0 0;
+	display: inline-block;
+	
+}
+
+header h1 {
+	color: white;
+	font-weight: bold;
+	font-size: 50px;
+	letter-spacing: 0.1em;
+}
+
+
+header h3 {
+	color: white;
+	word-spacing: 0.2em;
+	letter-spacing: 0.02em;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+
+nav {
+
+	padding: 0;
+	float: right;
+	position: relative;
+	font-size: 25px;
+	color: white;
+	word-spacing: 0.3em;
+	line-height: 30px;
+	margin-top: 25px;
+	font-weight: bold;
+	
+}
+
+
+nav ul {
+	margin: 0 0;
+	padding: 0;
+}
+
+
+nav ul li {
+	text-decoration: none;
+	display: inline-block;
+}
+
+
+nav ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+
+nav ul li:hover a {
+	color: #FB1E6E;
+}
+
+
+.wrapper {
+	text-align: center;
+	margin: 50px auto;
+	max-width: 1280px;
+	width: 97%;
+	position:relative;
+}
+
+
+.container {
+	background-color: white;
+	border: 1px solid #81E2DB;
+	border-radius: 7px;
+	margin-bottom: 20px;
+	overflow: hidden;
+	box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.1294);
+	display: inline-block;
+}
+
+
+h5 a {
+	text-decoration: none;
+	color: #242424;
+	transition: font-size 1s ease;
+	font-size: 25px;
+}
+
+
+h5 a:hover {
+	color: #04B3F2;
+	transition: font-size 1s ease;
+	font-size: 30px;
+}
+
+
+p {
+	font-size: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: justify;
+}
+
+
+.middle{
+	margin-left:20px; 
+	margin-right:20px;
+}
+
+
+.container img {
+	vertical-align: top;
+	width:100%;
+		
+}
+
+
+.content {
+	height: 200px;
+	vertical-align: middle;
+	text-align: center;
+	color: #242424;
+}
+
+footer {
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	
+}
+
+@media screen and (max-width: 400px) {
+	.container img {
+		display: none;
+	}
+	header h1 {
+		margin-top: 5px;
+	}
+	nav {
+		margin-top: 5px;
+	}
+	.middle {
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.container {
+		width: 100%;
+	}
+	header h1 {
+		margin-top: 5px;
+		font-size: 35px;
+	}
+	nav {
+		margin-top: 5px !important;
+	}
+	.middle {
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	
+	nav {
+		margin-top: 5px !important;
+		float: none;
+	}
+	.header-content {
+		margin-top: 50px;
+		text-align: center;
+	}
+	header h1,header h3,nav {
+		display: block;
+	}
+	header h1 {
+		font-size: 35px;
+	}
+	.middle {
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.container {
+		width: 32%;
+	}
+
+}
